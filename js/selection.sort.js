@@ -2,7 +2,7 @@ const input = [3, 4, 1, 7, 33, 2, 22, 21, 66, 55];
 
 console.log("Unsorted input: ", input);
 
-for (let i = 0; i < input.length; i++) {
+for (let i = 0; i < input.length - 1; i++) {
     let IndexOfMinValue = i;
 
     for (let j = i + 1; j < input.length; j++) {
